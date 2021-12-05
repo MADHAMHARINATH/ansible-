@@ -1,5 +1,5 @@
 ---
-- hosts: instance-1
+- hosts: 10.128.0.16
   become: true
   tasks:
     - name: restarting Apache
