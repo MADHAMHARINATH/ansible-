@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 35.222.183.250
   become: true
   tasks:
     - name: restarting Apache
